@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+    font-family: 'Inter';
+    font-style: normal;
+
+}
+
+.navbar{
+display: flex;
+margin: auto;
+height: 55px;
+justify-content: center;
+grid-gap: 7px;
+background: #F55A5A;
+}
+
+.globeicon{
+width: 24px;
+height: 24px;
+margin-top: 16px;
+}
+
+.title{
+margin-top: 20px;
+font-weight: 500;
+font-size: 14.4608px;
+line-height: 18px;
+letter-spacing: -0.075em;
+
+color: #FFFFFF
+}
+
+/*Card body div*/
+.cardBody{
+display: flex;
+margin: auto;
+justify-content: center;
+
+grid-gap: 19px; 
+margin-top: 36px;  
+
+padding-bottom: 19px;
+width: 478px;
+border-bottom: 1px solid #F5F5F5;  
+}
+
+/*Image of where you traveled to*/
+.travelImage{
+width: 125px;
+height: 168px;
+left: 40px;
+top: 100px;
+
+border-radius: 5px;
+}
+
+/*Text that shows up on the right of the traveledImage*/
+.cardTextArea{
+height: 168px;
+
+display: flex;
+flex-flow: column;
+justify-content: center;
+}
+
+.findLocation{
+display: flex;
+flex-flow: row;
+align-items: center;
+}
+
+.markerIcon{
+width: 7px;
+    
+}
+/*Text of the country's name*/
+.country{
+padding-left: 4px;
+padding-right: 12px;
+
+text-transform: uppercase;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+
+color: #2B283A;
+   
+}
+
+/*Google map links*/
+.maplink{
+
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+
+text-decoration-line: underline;
+
+color: #918E9B;    
+}
+
+/*Where in the country they went to*/
+.placeName{
+width: 326px;
+height: 45px;
+left: 184px;
+top: 136px;
+
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #2B283A;
+
+
+
+}
+
+/*start and end dates for travel*/
+.dates{
+width: 319px;
+height: 11px;
+left: 184px;
+top: 183px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+
+color: #2B283A;    
+}
+
+/*description paragraph text*/
+.description{
+width: 326px;
+padding-top: 9px;
+height: 45px;
+left: 184px;
+
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+
+
+
+color: #2B283A;    
+}
